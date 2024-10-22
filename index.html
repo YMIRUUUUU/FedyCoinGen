@@ -22,10 +22,10 @@
         <div class="center-panel">
             <h2>Améliorations permanentes</h2>
             <div id="permanent-upgrades">
-                <button class="square-btn" id="gpt-upgrade-btn" disabled title="GPT: +1 FED¤ par clic après 50k FED¤">GPT</button>
-                <button class="square-btn" id="burger-king-upgrade-btn" disabled title="Burger King: +2 FED¤ par clic après 100k FED¤">Burger King</button>
-                <button class="square-btn" id="roblox-upgrade-btn" disabled title="Roblox: +5 FED¤ par clic après 200k FED¤">Roblox</button>
-                <button class="square-btn" id="corvette-c6-upgrade-btn" disabled title="Corvette C6: +10 FED¤ par clic après 500k FED¤">Corvette C6</button>
+                <button class="square-btn" id="gpt-upgrade-btn" disabled title="GPT: Génère 100 FED¤/sec après 50k FED¤">GPT</button>
+                <button class="square-btn" id="burger-king-upgrade-btn" disabled title="Burger King: Génère 250 FED¤/sec après 100k FED¤">Burger King</button>
+                <button class="square-btn" id="roblox-upgrade-btn" disabled title="Roblox: Génère 500 FED¤/sec après 200k FED¤">Roblox</button>
+                <button class="square-btn" id="corvette-c6-upgrade-btn" disabled title="Corvette C6: Génère 1000 FED¤/sec après 500k FED¤">Corvette C6</button>
             </div>
             <h2>Améliorations en cours</h2>
             <div id="active-upgrades">
@@ -37,12 +37,16 @@
         <div class="right-panel">
             <h2>Améliorations disponibles</h2>
             <div class="upgrade-section">
-                <button id="beer-upgrade-btn" class="upgrade-btn" data-cost="100" data-multiplier="1">Acheter Bière (100 FED¤) [1 FED¤/sec] <span id="beer-count">(0)</span></button>
-                <button id="wine-upgrade-btn" class="upgrade-btn" data-cost="200" data-multiplier="2" disabled>Acheter Vin (200 FED¤) [2 FED¤/sec] <span id="wine-count">(0)</span></button>
-                <button id="whiskey-upgrade-btn" class="upgrade-btn" data-cost="500" data-multiplier="5" disabled>Acheter Whisky (500 FED¤) [5 FED¤/sec] <span id="whiskey-count">(0)</span></button>
-                <button id="vodka-upgrade-btn" class="upgrade-btn" data-cost="1000" data-multiplier="10" disabled>Acheter Vodka (1000 FED¤) [10 FED¤/sec] <span id="vodka-count">(0)</span></button>
-                <button id="rum-upgrade-btn" class="upgrade-btn" data-cost="5000" data-multiplier="25" disabled>Acheter Rhum (5000 FED¤) [25 FED¤/sec] <span id="rum-count">(0)</span></button>
-                <button id="tequila-upgrade-btn" class="upgrade-btn" data-cost="10000" data-multiplier="50" disabled>Acheter Tequila (10000 FED¤) [50 FED¤/sec] <span id="tequila-count">(0)</span></button>
+                <button id="beer-upgrade-btn" class="upgrade-btn">Acheter Bière (100 FED¤) [1 FED¤/sec] <span id="beer-count">(0)</span></button>
+                <button id="wine-upgrade-btn" class="upgrade-btn" disabled>Acheter Vin (200 FED¤) [2 FED¤/sec] <span id="wine-count">(0)</span></button>
+                <button id="whiskey-upgrade-btn" class="upgrade-btn" disabled>Acheter Whisky (500 FED¤) [5 FED¤/sec] <span id="whiskey-count">(0)</span></button>
+                <button id="vodka-upgrade-btn" class="upgrade-btn" disabled>Acheter Vodka (1000 FED¤) [10 FED¤/sec] <span id="vodka-count">(0)</span></button>
+                <button id="rum-upgrade-btn" class="upgrade-btn" disabled>Acheter Rhum (5000 FED¤) [25 FED¤/sec] <span id="rum-count">(0)</span></button>
+                <button id="tequila-upgrade-btn" class="upgrade-btn" disabled>Acheter Tequila (10000 FED¤) [50 FED¤/sec] <span id="tequila-count">(0)</span></button>
+                <!-- Nouvelles usines -->
+                <button id="gin-upgrade-btn" class="upgrade-btn" disabled>Acheter Gin (20000 FED¤) [75 FED¤/sec] <span id="gin-count">(0)</span></button>
+                <button id="absinthe-upgrade-btn" class="upgrade-btn" disabled>Acheter Absinthe (50000 FED¤) [100 FED¤/sec] <span id="absinthe-count">(0)</span></button>
+                <button id="whisky-rare-upgrade-btn" class="upgrade-btn" disabled>Acheter Whisky Rare (100000 FED¤) [150 FED¤/sec] <span id="whisky-rare-count">(0)</span></button>
             </div>
         </div>
     </div>
