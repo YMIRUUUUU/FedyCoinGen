@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedy Coin Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <!-- Panneau gauche : compteur de coins -->
+        <div class="left-panel">
+            <div class="coin-counter">
+                <h2>Solde actuel</h2>
+                <p><span id="coin-count">0</span> FED¤</p>
+                <p>FED¤ par seconde : <span id="fedy-per-second">0</span></p>
+                <button id="clicker-btn" class="clicker-btn">Cliquer pour gagner</button>
+            </div>
+        </div>
+
+        <!-- Panneau central : améliorations en cours -->
+        <div class="center-panel">
+            <h2>Améliorations permanentes</h2>
+            <div id="permanent-upgrades">
+                <button class="square-btn" id="gpt-upgrade-btn" disabled>GPT</button>
+                <button class="square-btn" id="burger-king-upgrade-btn" disabled>Burger King</button>
+                <button class="square-btn" id="roblox-upgrade-btn" disabled>Roblox</button>
+            </div>
+            <h2>Améliorations en cours</h2>
+            <div id="active-upgrades">
+                <p>Aucune amélioration active</p>
+            </div>
+        </div>
+
+        <!-- Panneau droit : améliorations disponibles -->
+        <div class="right-panel">
+            <h2>Améliorations disponibles</h2>
+            <div class="upgrade-section">
+                <button id="beer-upgrade-btn" class="upgrade-btn">Acheter Bière (100 FED¤) [1 FED¤/sec]</button>
+                <button id="wine-upgrade-btn" class="upgrade-btn" disabled>Acheter Vin (200 FED¤) [2 FED¤/sec]</button>
+                <button id="whiskey-upgrade-btn" class="upgrade-btn" disabled>Acheter Whisky (500 FED¤) [5 FED¤/sec]</button>
+                <button id="vodka-upgrade-btn" class="upgrade-btn" disabled>Acheter Vodka (1000 FED¤) [10 FED¤/sec]</button>
+                <button id="rum-upgrade-btn" class="upgrade-btn" disabled>Acheter Rhum (5000 FED¤) [25 FED¤/sec]</button>
+                <button id="tequila-upgrade-btn" class="upgrade-btn" disabled>Acheter Tequila (10000 FED¤) [50 FED¤/sec]</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
